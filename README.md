@@ -3,9 +3,9 @@
 배터리 셀 공장의 디지털 트윈 데모. 설비 데이터를 실시간으로 3D에 동기화하고, 고장을 진단하고, 조치안을 예측해 비교한다.
 Unreal Engine 5.8 / C++ / UMG / WebSocket / Unreal MCP
 
-![관제 시점](Docs/media/overview.jpg)
+[![소개 영상 보기](Docs/media/overview.jpg)](https://youtu.be/9Anh3zqeJp4)
 
-소개 영상(100초): [Docs/media/MetaTwin.mp4](Docs/media/MetaTwin.mp4)
+**▶ [소개 영상 보기 (YouTube, 100초)](https://youtu.be/9Anh3zqeJp4)**
 
 ## 무엇을 보여주는가
 
