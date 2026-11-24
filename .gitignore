@@ -10,3 +10,4 @@ Build/Windows/FileOpenOrder/
 __pycache__/
 *.user
 .claude/settings.local.json
+Docs/media/*.mp4
