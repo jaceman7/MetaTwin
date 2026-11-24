@@ -27,7 +27,18 @@ Unreal Engine 5.8 / C++ / UMG / WebSocket / Unreal MCP
 
 **서버 연결:** 먼저 `python Tools/emulator/emulator.py`를 실행한다(Python 3, 추가 패키지 없음). `--chaos`는 중복·지연 프레임을 섞는다.
 
-**에디터:** `MetaTwin.uproject`를 열고 Play.
+**소스에서 열기:** Unreal Engine 5.8, Visual Studio 2022(C++ 게임 개발), Git, Git LFS가 필요하다.
+
+```
+git lfs install
+git clone https://github.com/jaceman7/MetaTwin.git
+```
+
+1. 한글이 없는 경로에 복제한다.
+2. `MetaTwin.uproject`를 열고, 모듈을 다시 빌드할지 물으면 예를 누른다.
+3. 에디터에서 Play를 누른다.
+
+> **Download ZIP으로 받지 않는다.** Code → Download ZIP과 Releases의 `Source code`에는 레벨과 머티리얼(Git LFS 파일)의 실제 내용이 들어 있지 않다. 코드만 볼 때는 웹에서 [Source/MetaTwin](Source/MetaTwin)을 보면 되고, 실행만 할 때는 위의 `MetaTwin-Win64.zip`을 쓴다.
 
 | 입력 | 동작 |
 |---|---|
