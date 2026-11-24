@@ -1,0 +1,12 @@
+{
+  "machines": [
+    {"id": "MIXER-01",     "kind": "Tank",   "name": "슬러리 믹서",   "x":  700, "y": -1500, "temp": 42, "vib": 1.4, "rate": 46, "heat": 7},
+    {"id": "COATER-01",    "kind": "Roller", "name": "전극 코터",     "x":  700, "y":  -500, "temp": 78, "vib": 1.8, "rate": 42, "heat": 9},
+    {"id": "PRESS-01",     "kind": "Roller", "name": "롤 프레스",     "x":  700, "y":   500, "temp": 55, "vib": 2.6, "rate": 43, "heat": 8},
+    {"id": "SLITTER-01",   "kind": "Roller", "name": "슬리터",        "x":  700, "y":  1500, "temp": 38, "vib": 2.1, "rate": 45, "heat": 7},
+    {"id": "STACKER-01",   "kind": "Gantry", "name": "셀 스태커",     "x": -700, "y":  1500, "temp": 34, "vib": 1.1, "rate": 41, "heat": 8},
+    {"id": "FILLER-01",    "kind": "Tank",   "name": "전해액 주입기", "x": -700, "y":   500, "temp": 30, "vib": 0.8, "rate": 44, "heat": 7},
+    {"id": "FORMATION-01", "kind": "Rack",   "name": "화성 충방전기", "x": -700, "y":  -500, "temp": 45, "vib": 0.9, "rate": 40, "heat": 9},
+    {"id": "INSPECT-01",   "kind": "Gantry", "name": "비전 검사기",   "x": -700, "y": -1500, "temp": 29, "vib": 0.5, "rate": 47, "heat": 6}
+  ]
+}

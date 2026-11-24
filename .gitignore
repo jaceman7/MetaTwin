@@ -1,0 +1,12 @@
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.slnx
+Build/Package/
+Build/Windows/FileOpenOrder/
+__pycache__/
+*.user
+.claude/settings.local.json
