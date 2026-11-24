@@ -23,7 +23,7 @@ Unreal Engine 5.8 / C++ / UMG / WebSocket / Unreal MCP
 
 ## 실행
 
-**패키지:** `Build/Package/MetaTwin-Win64.zip`을 풀고 `MetaTwin.exe`를 실행한다. 서버가 없으면 6초 뒤 내장 시뮬레이션으로 전체 흐름을 진행할 수 있다.
+**패키지:** [MetaTwin-Win64.zip](https://github.com/jaceman7/MetaTwin/releases/latest/download/MetaTwin-Win64.zip)(Windows, 316MB)을 풀고 `MetaTwin.exe`를 실행한다. 서버가 없으면 6초 뒤 내장 시뮬레이션으로 전체 흐름을 진행할 수 있다.
 
 **서버 연결:** 먼저 `python Tools/emulator/emulator.py`를 실행한다(Python 3, 추가 패키지 없음). `--chaos`는 중복·지연 프레임을 섞는다.
 
