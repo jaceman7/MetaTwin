@@ -21,6 +21,21 @@ Unreal Engine 5.8 / C++ / UMG / WebSocket / Unreal MCP
 
 구조와 설계 결정은 [Docs/DESIGN.md](Docs/DESIGN.md)에 있다.
 
+## 핵심 코드
+
+| 파일 | 볼 내용 |
+|---|---|
+| [TelemetrySubsystem.cpp](Source/MetaTwin/TelemetrySubsystem.cpp) | 연결과 재연결, 명령 응답 확인, 재생 시점, 내장 시뮬레이션 전환 |
+| [TwinRegistry.cpp](Source/MetaTwin/TwinRegistry.cpp) | 세션과 순번으로 중복·역순 데이터를 거르고 신선도를 판정 |
+| [TwinTelemetry.cpp](Source/MetaTwin/TwinTelemetry.cpp) | 수신 JSON 검증, 명령 생성, 재연결 간격 |
+| [TwinPlant.cpp](Source/MetaTwin/TwinPlant.cpp) | 공정 모델, 조치안 예측(What-if), 타임라인 기록 |
+| [TwinLine.cpp](Source/MetaTwin/TwinLine.cpp) | 라인 요약과 병목, 알람 판정 |
+| [TwinMachineActor.cpp](Source/MetaTwin/TwinMachineActor.cpp) | 설비의 3D 표시와 애니메이션, 히트맵 |
+| [TwinHudWidget.cpp](Source/MetaTwin/TwinHudWidget.cpp) | 관제 HUD(UMG) |
+| [Tests](Source/MetaTwin/Tests) | 자동화 테스트 12개 |
+| [plant.py](Tools/emulator/plant.py), [emulator.py](Tools/emulator/emulator.py) | Python 설비 에뮬레이터 |
+| [build_factory_level.py](Tools/build_factory_level.py) | Unreal MCP로 레벨을 구성하는 스크립트 |
+
 ## 실행
 
 **패키지:** [MetaTwin-Win64.zip](https://github.com/jaceman7/MetaTwin/releases/latest/download/MetaTwin-Win64.zip)(Windows, 316MB)을 풀고 `MetaTwin.exe`를 실행한다. 서버가 없으면 6초 뒤 내장 시뮬레이션으로 전체 흐름을 진행할 수 있다.
